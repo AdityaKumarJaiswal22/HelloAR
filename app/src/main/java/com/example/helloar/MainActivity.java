@@ -73,6 +73,7 @@ public class MainActivity extends AppCompatActivity {
                 return false;
             }
         }
+
         else{
             Toast.makeText(activity, "App does not support required build support", Toast.LENGTH_SHORT).show();
             activity.finish();
